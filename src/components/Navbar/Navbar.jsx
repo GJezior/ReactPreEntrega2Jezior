@@ -13,21 +13,18 @@ const Navbar = () => {
 
             </div>
 
-            <div className='navbar-links'>
+            <div className='navbar-container'>
 
-                <ul>
+                <ul className='navbar-links'>
 
                     <li>
-                        <a href="">HOME</a>
+                        <a href="#" className='link'>FENDER</a>
                     </li>
                     <li>
-                        <a href="">ACERCA DE</a>
+                        <a href="#" className='link'>GIBSON</a>
                     </li>
                     <li>
-                        <a href="">SALA DE ENSAYO</a>
-                    </li>
-                    <li>
-                        <a href="">CONTACTO</a>
+                        <a href="#" className='link'>IBANEZ</a>
                     </li>
 
                 </ul>

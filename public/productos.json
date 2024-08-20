@@ -4,7 +4,8 @@
         "nombre": "Fender Vintage II 1961 Stratocaster - Fiesta Red",
         "precio": 2299,
         "stock": 3,
-        "imagen":"./img/fenderstratocaster60.jpg",
+        "imagen": "/assets/img/fenderstratocaster60.jpg",
+        "categoria": "Fender", 
         "descripcion": "Reedicion de un clasico de los 61, con puente vintage y mango de palisandro" 
     },
     {
@@ -12,7 +13,8 @@
         "nombre": "Fender Pro II Telecaster - Butterscotch Blonde",
         "precio": 1899,
         "stock": 2,
-        "imagen": "./img/fendertelecasterpro.jpg",
+        "imagen": "/assets/img/fendertelecasterpro.jpg",
+        "categoria": "Fender", 
         "descripcion": "Reedicion de una de las guitarras mas conocidas del mundo. Pieza doble de arce, mango de maple y dos microfonos de simple bobina"
     },
     {
@@ -20,7 +22,8 @@
         "nombre": "Gibson Les Paul Standard '60s - Honey Amber",
         "precio": 2799,
         "stock": 4,
-        "imagen": "./img/gibsonlespaulstandard60.jpg",
+        "imagen": "/assets/img/gibsonlespaulstandard60.jpg",
+        "categoria": "Gibson", 
         "descripcion": "Guitarra clasica de un solo corte hecha de caoba y maple, con dos microfonos de doble bobina "
     },
     {
@@ -28,7 +31,8 @@
         "nombre": "Gibson ES-335 Semi-hollowbody - Sixties Cherry",
         "precio": 3499,
         "stock": 2,
-        "imagen": "./img/gibsones335.jpg",
+        "imagen": "/assets/img/gibsones335.jpg",
+        "categoria": "Gibson", 
         "descripcion": "Guitarra semi-hueca con excelente tonos limpios/acusticos y tambien tonos overdrive"
     },
     {
@@ -36,15 +40,17 @@
         "nombre": "Ibanez Genesis RG550 - Desert Sun Yellow",
         "precio": 999,
         "stock": 3,
-        "imagen": "./img/ibanez550.jpg",
-        "descripcion": "Popular de los 80. Creada a partir de la famosa guitarra de Steve Vai"
+        "imagen": "/assets/img/ibanez550.jpg",
+        "categoria": "Ibanez", 
+        "descripcion": "Guitarra popular de los 80. Creada a partir de la famosa guitarra de Steve Vai"
     },
     {
         "id": 6,
         "nombre": "Ibanez Prestige AZ2204NW - Pastel Pink Rose",
         "precio": 1999,
         "stock": 5,
-        "imagen": "./img/ibanezaz2204.jpg",
+        "imagen": "/assets/img/ibanezaz2204.jpg",
+        "categoria": "Ibanez", 
         "descripcion":  "Basada en las famosas guitarras de los 60/70 pero con construccion y hardware moderno"
     },
     {
@@ -52,8 +58,9 @@
         "nombre": "Ibanez John Scofield Signature JSM100 - Vintage Burst",
         "precio": 2999,
         "stock": 1,
-        "imagen": "./img/ibanezaz2204.jpg",
-        "descripcion":  "Guitarra Signature semi-hueca del famoso guitarrista de jazz John Scotfield"
+        "imagen": "/assets/img/ibanezjsm100.jpg",
+        "categoria": "Ibanez", 
+        "descripcion":  "Guitarra Signature semi-hueca del famoso guitarrista de jazz John Scofield"
     }
 
 
