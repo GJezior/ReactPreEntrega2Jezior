@@ -12,6 +12,8 @@ function App() {
 
       <ItemListContainer greeting='Bienvenidos a OverDrive'/>
 
+      <Footer/>
+
     </>
   )
 }
