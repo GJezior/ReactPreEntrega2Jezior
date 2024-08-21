@@ -1,4 +1,4 @@
-import './CartWidget.css'
+import './CartWidget.css';
 import { FaCartShopping } from "react-icons/fa6";
 
 const CartWidget = () => {

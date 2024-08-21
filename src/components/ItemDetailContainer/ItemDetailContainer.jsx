@@ -23,6 +23,7 @@ const ItemDetailContainer = () => {
         }
     
         fetchData()
+
       },[id])
 
       console.log(product)

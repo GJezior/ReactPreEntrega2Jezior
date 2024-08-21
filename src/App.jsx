@@ -1,10 +1,10 @@
-import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import Footer from './components/Footer/Footer'
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Error from './components/Error/Error'
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Footer from './components/Footer/Footer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Error from './components/Error/Error';
 
 
 const App = () => {

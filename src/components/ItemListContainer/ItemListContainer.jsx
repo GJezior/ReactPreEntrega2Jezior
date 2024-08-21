@@ -1,8 +1,8 @@
-import { useState, useEffect} from 'react'
-import "./ItemListContainer.css"
-import ItemList from '../ItemList/ItemList'
-import { useParams } from "react-router-dom"
-import Spinner from '../Spinner/Spinner'
+import { useState, useEffect } from 'react';
+import "./ItemListContainer.css";
+import ItemList from '../ItemList/ItemList';
+import { useParams } from "react-router-dom";
+import Spinner from '../Spinner/Spinner';
 
 const ItemListContainer = ({greeting}) => {
 
@@ -18,7 +18,7 @@ const ItemListContainer = ({greeting}) => {
       try {
         const response = await fetch('/productos.json')
         const data = await response.json()
-        const filteredProducts = categoryId ? data.filter((p) => p.categoria === categoryId) : data;
+        const filteredProducts = categoryId ? data.filter((p) => p.category === categoryId) : data;
         setProducts(filteredProducts)
 
       }catch(error){
